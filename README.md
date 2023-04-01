@@ -38,6 +38,7 @@
     git config --list
 
 ## 4 - Iniciando um Repositório
+    Dentro da pasta do seu projeto rode no terminal o comando, git init.
     cd
     ls
     dir
