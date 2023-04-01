@@ -113,9 +113,9 @@ git branch -M main
 git push -u origin main
 
 
-## Fazendo alterações no repositório
+## 11 - Fazendo alterações no repositório
 
-# git status
-# git add -A
-# git commit -am ""
-# git push origin main
+git status
+git add -A
+git commit -am ""
+git push origin main
