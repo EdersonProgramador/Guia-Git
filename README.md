@@ -1,6 +1,6 @@
-Iniciando Curso de Git para Iniciantes
+### Iniciando Curso de Git para Iniciantes
 
-1 - Como funciona
+## 1 - Como funciona
     Por que usar Git e GitHub? <br>
     Resposta: Ter uma forma fácil de gerenciar o código fonte da aplicação, do sistema, do produto. <br>
     Trabalhando em equipe. <br>
@@ -13,12 +13,12 @@ Iniciando Curso de Git para Iniciantes
     pull <br>
     push <br>
 
-2 - Instalando o Git
+## 2 - Instalando o Git
     Acesse o site do git e baixe o instalador.
     <a href="https://git-scm.com/">Git</a>
 
 
-3 - Configurando o Git
+## 3 - Configurando o Git
     git config --global user.name "Ederson Programador"
     git config --global user.email "edersonprogramadorfullstack@outlook.com"
     git config --global core.editor vscode
@@ -27,7 +27,7 @@ Iniciando Curso de Git para Iniciantes
     git config user.email
     git config --list
 
-4 - Iniciando um Repositório
+## 4 - Iniciando um Repositório
     cd
     ls
     dir
@@ -36,7 +36,7 @@ Iniciando Curso de Git para Iniciantes
 
     git init
 
-5 - Branch - README - Commit
+## 5 - Branch - README - Commit
     git status
     <!-- ^ Pode adicionar um arquivo por vez ou todos de uma vez com "git add -A" -->
     <!-- ~~ Criar arquivo README.md -->
@@ -47,7 +47,7 @@ Iniciando Curso de Git para Iniciantes
     git commit -m "Texto descritivo"
     git log
 
-6 - Revertendo modificações
+## 6 - Revertendo modificações
     git branch
     <!-- ^ com git commit -am você não precisa fazer o git add -A para alvar pois o mesmo já salva e envia. -->
     git commit -am "Adiciona e altera"
@@ -55,7 +55,7 @@ Iniciando Curso de Git para Iniciantes
     git reset --mixed
     git reset --hard
 
-7 - Trabalhando com diferentes Branches
+## 7 - Trabalhando com diferentes Branches
 
     <!--^ Para visualizar em qual branch você está digite o comando abaixo -->
 git branch
@@ -75,7 +75,7 @@ git branch -d NomeDaBranchAqui
 git branch -m main
 
 
-8 - Diferença entre arquivos
+## 8 - Diferença entre arquivos
 
 <!-- * Saber quais arquivos foram adicionados, alterado, ou deletados antes de comitar os arquivos. -->
 git status
@@ -83,7 +83,7 @@ git diff
 git diff --name-only
 git checkout main -- Nome de um arquivo
 
-9 - Criando um repositório no git Github
+## 9 - Criando um repositório no git Github
 
 <!-- * Generating a new SSH key and adding it to the ssh-agent for windowns -->
 
@@ -94,7 +94,7 @@ Use git bach: Terminal específico para git.
 ssh-keygen -t rsa -b 4096 -C "edersonprogramadorfullstack@outlook.com"
 
 
-10 - Conectando o repositorio local ao remoto
+## 10 - Conectando o repositorio local ao remoto
 
 <!-- ^ …or create a new repository on the command line -->
 
@@ -111,3 +111,11 @@ git push -u origin main
 git remote add origin https://github.com/EdersonProgramador/mude-aqui-o-repositorio.git
 git branch -M main
 git push -u origin main
+
+
+## Fazendo alterações no repositório
+
+# git status
+# git add -A
+# git commit -am ""
+# git push origin main

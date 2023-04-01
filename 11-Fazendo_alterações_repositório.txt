@@ -1,0 +1,6 @@
+## Fazendo alterações no repositório
+
+# git status
+# git add -A
+# git commit -am ""
+# git push origin main
