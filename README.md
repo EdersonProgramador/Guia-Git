@@ -1,4 +1,4 @@
-## Gui Git o básico.
+## Guia Git o básico.
 
 ## 1 - Como funciona
     Por que usar Git e GitHub?
