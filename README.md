@@ -128,7 +128,7 @@
 
 ## 12 - Ignorando arquivos do repositório (gitignore)
     
-    Cre o arquivo na raiz do seu projeto e ignore arquivos de backp, node_modules entre outros.
+    Crie o arquivo na raiz do seu projeto e ignore os arquivos de backup, node_modules entre outros.
     
     .gitignore
 
