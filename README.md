@@ -23,7 +23,8 @@
     remote
 
 ## 2 - Instalando o Git
- <a href="https://git-scm.com/">Acesse o site do git e baixe o instalador.</a>
+ <b>Acesse o site do git e baixe o instalador.</b>
+ <a href="https://git-scm.com/">Download for Windows</a>
 
 
 ## 3 - Configurando o Git
@@ -91,7 +92,6 @@
 
 <!-- * Generating a new SSH key and adding it to the ssh-agent for windowns -->
 
-      
   <a href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows">Generating a new SSH key</a>
 
     Use git bach: Terminal específico para git.
