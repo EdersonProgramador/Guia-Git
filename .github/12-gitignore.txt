@@ -1,0 +1,3 @@
+Ignorando arquivos do repositório
+
+criar arquivo .gitignore

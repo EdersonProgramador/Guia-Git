@@ -125,3 +125,9 @@
     git add -A
     git commit -am ""
     git push origin main
+
+## 12 - Ignorando arquivos do repositório (gitignore)
+    
+    Cre o arquivo na raiz do seu projeto e ignore arquivos de backp, node_modules entre outros.
+    
+    .gitignore
