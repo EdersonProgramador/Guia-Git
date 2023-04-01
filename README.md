@@ -7,7 +7,8 @@
  <a href="https://www.alura.com.br/artigos/o-que-e-git-github" target="_blank">Link para aprofundamento</a>
     
 
-<b>Sintáxice básica do git</b>
+    - Sintáxice básica do git
+
     git
     commit
     pull
