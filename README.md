@@ -1,4 +1,4 @@
-### Iniciando Curso de Git para Iniciantes
+## Iniciando Curso de Git para Iniciantes
 
 ## 1 - Como funciona
     Por que usar Git e GitHub? <br>
@@ -78,10 +78,10 @@ git branch -m main
 ## 8 - Diferença entre arquivos
 
 <!-- * Saber quais arquivos foram adicionados, alterado, ou deletados antes de comitar os arquivos. -->
-git status
-git diff
-git diff --name-only
-git checkout main -- Nome de um arquivo
+- git status
+- git diff
+- git diff --name-only
+- git checkout main -- Nome de um arquivo
 
 ## 9 - Criando um repositório no git Github
 
@@ -89,32 +89,32 @@ git checkout main -- Nome de um arquivo
 
 <a href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows">Generating a new SSH key</a>
 
-Use git bach: Terminal específico para git.
+- Use git bach: Terminal específico para git.
 
-ssh-keygen -t rsa -b 4096 -C "edersonprogramadorfullstack@outlook.com"
+- ssh-keygen -t rsa -b 4096 -C "edersonprogramadorfullstack@outlook.com"
 
 
 ## 10 - Conectando o repositorio local ao remoto
 
 <!-- ^ …or create a new repository on the command line -->
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/EdersonProgramador/mude-aqui-o-repositorio.git
-git push -u origin main
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/EdersonProgramador/mude-aqui-o-repositorio.git
+- git push -u origin main
 
 <!-- ^ …or push an existing repository from the command line -->
 
-git remote add origin https://github.com/EdersonProgramador/mude-aqui-o-repositorio.git
-git branch -M main
-git push -u origin main
+- git remote add origin https://github.com/EdersonProgramador/mude-aqui-o-repositorio.git
+- git branch -M main
+- git push -u origin main
 
 
 ## 11 - Fazendo alterações no repositório
 
-git status
-git add -A
-git commit -am ""
-git push origin main
+- git status
+- git add -A
+- git commit -am ""
+- git push origin main
