@@ -1,13 +1,13 @@
 ## Iniciando Curso de Git para Iniciantes
 
 ## 1 - Como funciona
-    Por que usar Git e GitHub? <br>
+    Por que usar Git e GitHub?
     Resposta: Ter uma forma fácil de gerenciar o código fonte da aplicação, sistema ou produto.
-    Trabalhando em equipe. <br>
+    Trabalhando em equipe.
  <a href="https://www.alura.com.br/artigos/o-que-e-git-github">Link para aprofundamento</a>
     
 
-- Sintáxice básica do git
+    Sintáxice básica do git
     git
     commit
     pull
@@ -23,8 +23,7 @@
     remote
 
 ## 2 - Instalando o Git
-    Acesse o site do git e baixe o instalador.
- <a href="https://git-scm.com/">Git</a>
+ <a href="https://git-scm.com/">Acesse o site do git e baixe o instalador.</a>
 
 
 ## 3 - Configurando o Git
@@ -68,19 +67,15 @@
 
     <!--^ Para visualizar em qual branch você está digite o comando abaixo -->
     git branch
-<!--^ Para criar um branch digite git branch + nome do novo branch, por exemplo o git brach teste -->
+    <!--^ Para criar um branch digite git branch + nome do novo branch, por exemplo o git brach teste -->
     git branch teste
-<!--^ Para trocar de branch utiliza-se o git checkout + o nome do branch-->
+    <!--^ Para trocar de branch utiliza-se o git checkout + o nome do branch-->
     git checkout teste
-<!--^ Para voltar para versão principal digite git checkout master -->
+    <!--^ Para voltar para versão principal digite git checkout master -->
     git checkout master
-
-<!-- ^ Como deletar a branch atual -->
-
+    <!-- ^ Como deletar a branch atual -->
     git branch -d NomeDaBranchAqui
-
-<!-- ^ Para renomear a sua atual branch local, execute o comando branch com a opção -m , passando o novo nome.
- -->
+    <!-- ^ Para renomear a sua atual branch local, execute o comando branch com a opção -m , passando o novo nome-->
     git branch -m main
 
 
