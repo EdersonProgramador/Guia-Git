@@ -58,21 +58,21 @@
 ## 7 - Trabalhando com diferentes Branches
 
     <!--^ Para visualizar em qual branch você está digite o comando abaixo -->
-git branch
+- git branch
 <!--^ Para criar um branch digite git branch + nome do novo branch, por exemplo o git brach teste -->
-git branch teste
+- git branch teste
 <!--^ Para trocar de branch utiliza-se o git checkout + o nome do branch-->
-git checkout teste
+- git checkout teste
 <!--^ Para voltar para versão principal digite git checkout master -->
-git checkout master
+- git checkout master
 
 <!-- ^ Como deletar a branch atual -->
 
-git branch -d NomeDaBranchAqui
+- git branch -d NomeDaBranchAqui
 
 <!-- ^ Para renomear a sua atual branch local, execute o comando branch com a opção -m , passando o novo nome.
  -->
-git branch -m main
+- git branch -m main
 
 
 ## 8 - Diferença entre arquivos
@@ -87,7 +87,7 @@ git branch -m main
 
 <!-- * Generating a new SSH key and adding it to the ssh-agent for windowns -->
 
-<a href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows">Generating a new SSH key</a>
+- <a href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#platform-windows">Generating a new SSH key</a>
 
 - Use git bach: Terminal específico para git.
 
@@ -114,7 +114,7 @@ git branch -m main
 
 ## 11 - Fazendo alterações no repositório
 
-- git status
-- git add -A
-- git commit -am ""
-- git push origin main
+    git status
+    git add -A
+    git commit -am ""
+    git push origin main
