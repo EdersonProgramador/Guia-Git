@@ -1,4 +1,4 @@
-## Iniciando Curso de Git para Iniciantes
+## Gui Git o básico.
 
 ## 1 - Como funciona
     Por que usar Git e GitHub?
@@ -131,3 +131,9 @@
     Cre o arquivo na raiz do seu projeto e ignore arquivos de backp, node_modules entre outros.
     
     .gitignore
+
+    Escreva:
+        *.arquivo
+        NOME_DA_PASTA
+
+<a href="https://github.com/github/gitignore" target="_blank">Repositório do gitignore para todos os projetos</a>
