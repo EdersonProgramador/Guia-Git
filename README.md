@@ -4,10 +4,10 @@
     Por que usar Git e GitHub?
     Resposta: Ter uma forma fácil de gerenciar o código fonte da aplicação, sistema ou produto.
     Trabalhando em equipe.
- <a href="https://www.alura.com.br/artigos/o-que-e-git-github">Link para aprofundamento</a>
+ <a href="https://www.alura.com.br/artigos/o-que-e-git-github" target="_blank">Link para aprofundamento</a>
     
 
-    Sintáxice básica do git
+<b>Sintáxice básica do git</b>
     git
     commit
     pull
@@ -23,8 +23,8 @@
     remote
 
 ## 2 - Instalando o Git
- <b>Acesse o site do git e baixe o instalador.</b>
- <a href="https://git-scm.com/">Download for Windows</a>
+<b>Acesse o site do git e baixe o instalador.</b>
+<a href="https://git-scm.com/" target="_blank">Download for Windows</a>
 
 
 ## 3 - Configurando o Git
