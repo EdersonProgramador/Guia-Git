@@ -2,25 +2,34 @@
 
 ## 1 - Como funciona
     Por que usar Git e GitHub? <br>
-    Resposta: Ter uma forma fácil de gerenciar o código fonte da aplicação, do sistema, do produto. <br>
+    Resposta: Ter uma forma fácil de gerenciar o código fonte da aplicação, sistema ou produto.
     Trabalhando em equipe. <br>
-    <a href="https://www.alura.com.br/artigos/o-que-e-git-github">Link para aprofundamento</a> <br> <br>
+ <a href="https://www.alura.com.br/artigos/o-que-e-git-github">Link para aprofundamento</a>
     
 
-    comendos básicos <br><br>
-    git <br>
-    commit <br>
-    pull <br>
-    push <br>
+- Sintáxice básica do git
+    git
+    commit
+    pull
+    push
+    log
+    branch
+    checkout
+    config
+    init
+    add
+    reset
+    diff
+    remote
 
 ## 2 - Instalando o Git
     Acesse o site do git e baixe o instalador.
-    <a href="https://git-scm.com/">Git</a>
+ <a href="https://git-scm.com/">Git</a>
 
 
 ## 3 - Configurando o Git
-    git config --global user.name "Ederson Programador"
-    git config --global user.email "edersonprogramadorfullstack@outlook.com"
+    git config --global user.name "Seu nome aqui"
+    git config --global user.email "Seu E-mail aqui"
     git config --global core.editor vscode
 
     git config user.name
@@ -92,7 +101,7 @@
 
     Use git bach: Terminal específico para git.
 
-    ssh-keygen -t rsa -b 4096 -C "edersonprogramadorfullstack@outlook.com"
+    ssh-keygen -t rsa -b 4096 -C "Seu E-mail do GitHub aqui"
 
 
 ## 10 - Conectando o repositorio local ao remoto
