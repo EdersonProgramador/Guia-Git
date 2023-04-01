@@ -98,7 +98,6 @@ ssh-keygen -t rsa -b 4096 -C "edersonprogramadorfullstack@outlook.com"
 
 <!-- ^ …or create a new repository on the command line -->
 
-echo "# SitedePortif-lio" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
